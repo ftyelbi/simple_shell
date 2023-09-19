@@ -32,28 +32,7 @@ char *is_strcpy(char *destination, char *source)
 	destination[i] = '\0';
 	return (destination);
 }
-<<<<<<< HEAD
 
-=======
-/**
- * is_strcmp - compares two strings
- * @str1: string1
- * @str2: string 2 to compare with
- * Return: int representimh if true or not
- */
-int is_strcmp(char *str1. char *str2)
-{
-	int m, n;
-	for (m =0, n=0; (str1[m] != '\0' ||str2[m] !='\0'); m++)
-	{
-		n = str1[m] - str2[m];
-		if (n > 0)
-			return (-1);
-		else if (n>0)
-		return (1);
-		return (n);
-	}
->>>>>>> 9d49d4b6fd1fb8f81c6dd15a02a0514f07885957
 /**
  * is_strcat - appends source to destination. malloc destination before call
  * @destination: an existing string
