@@ -35,7 +35,7 @@ char *is_strcpy(char *destination, char *source)
  * @str2: string 2 to compare with
  * Return: int representimh if true or not
  */
-int is_strcmp(chsr *str1. char *str2)
+int is_strcmp(char *str1. char *str2)
 {
 	int m, n;
 	for (m =0, n=0; (str1[m] != '\0' ||str2[m] !='\0'); m++)
