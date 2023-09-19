@@ -29,7 +29,6 @@ void *is_memchr(const void *src_void, int c, size_t length)
 char *is_strtok(char *str, const char *delim)
 {
 	static char *s;
-
 	char *ret = NULL;
 
 	if (str != NULL)
