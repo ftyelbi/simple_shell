@@ -85,8 +85,8 @@ path_l *_add_node_end(path_l **head, char *str)
 }
 
 /**
- * _path_to_list - creates a linked list of each directory contained in the PATH
- * environment variable
+ * _path_to_list - creates a linked list of each directory contained
+ * in the PATH environment variable
  * @shell: the shell environment's struct
  *
  * Return: a linked list containing the PATH's paths
